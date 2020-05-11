@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <head>
+    <title>CB-NW-3 Mini Project 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <form>
+      <h1>Signup Form</h1>
+      <div class="labels">
+        <label class="genericLabel" for="fullName">
+          Full Name:
+          <input type="text" for="fullName" id="fullName" required>
+        </label>
+  
+        <label class="genericLabel" for="streetAddress">
+          Street address
+          <input type="text" for="streetAddress" id="streetAddress" required>
+        </label>
+  
+        <label class="genericLabel" for="emailAddress">
+          Email address
+          <input type="email" for="emailAddress" id="emailAddress" required>
+        </label>
+  
+        <label class="genericLabel" for="phoneNumber">
+          Phone number
+          <input type="text" for="phoneNumber" id="phoneNumber" required>
+        </label>
+  
+        <label class="genericLabel" for="password">
+          Password
+          <input type="password" id="password" for="password" required>
+        </label>
+  
+        <label class="genericLabel" for="confirmPassword">
+          Confirm Password
+          <input type="password" id="confirmPassword" for="confirmPassword" required>
+        </label>
+      </div>
+
+      <div class="termsOfService">
+        <label for="checkbox">
+          <input type="checkbox" for="checkbox" required>
+          I agree to the <a href="">terms of service</a>
+        </label>
+      </div>
+
+      <div class="buttons">
+        <button type="button" class="clearButton">Clear</button>
+        <button type="button" class="suggestButton">Suggestion</button>
+        <button class="submitButton">Submit</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

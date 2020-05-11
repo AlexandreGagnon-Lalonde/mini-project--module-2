@@ -40,10 +40,7 @@ Here are the colors you'll need:
 The font used is `Jost`, from Google Fonts. You can use it by adding this to your HTML:
 
 ```html
-<link
-  href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap"
-  rel="stylesheet"
-/>
+<link href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap" rel="stylesheet"/>
 ```
 
 After your form looks pretty close, let's start adding the correct behaviours!
